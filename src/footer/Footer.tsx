@@ -6,9 +6,7 @@ function Footer() {
           <h3>Sathindu Dhanushka</h3>
         </div>
         <div className="col-md-4">
-          <p>
-            Contact me:<br></br> sathindu.d.zoysa@gmail.com
-          </p>
+          <p>Email me: sathindu.d.zoysa@gmail.com</p>
           <p>Follow me on:</p>
           <ul className="nav list-unstyled d-flex">
             <li className="ms-3">

@@ -11,7 +11,7 @@ function NavBar() {
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link px-2">
+        <a href="#projects" className="nav-link px-2">
           Projects
         </a>
       </li>

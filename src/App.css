@@ -1,3 +1,6 @@
+html { scroll-behavior: smooth; }
+
+
 .project-cards{
     margin: 10px;
     padding: 15px;
@@ -5,8 +8,27 @@
     cursor: pointer;
 }
 
+.annimation, .animated-layer{
+    height: 100%;
+} 
+.animated-layer{
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+
+    position: absolute;
+}
+#foreground{
+    /* background-color: black; */
+    background-image: url(./assets/foreground.png);
+}
+#background{
+    background-image: url(./assets/background.png);
+}
+
 /* //Project car css */
-.card-wrapper {
+/* .card-wrapper {
     margin-bottom: 30px;
   }
   .card-image .card .card-img-wrapper {
@@ -71,7 +93,6 @@
     left: 0;
     right: 0;
     height: 50%;
-    /* background-color: #fff; */
     transition: 1.5s ease;
   }
   .card-content {
@@ -87,4 +108,4 @@
   }
   .card:hover .card-content {
     bottom: 0;
-  }
+  } */

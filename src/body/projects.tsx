@@ -3,7 +3,7 @@ import img from "../assets/test-img.png";
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="container projects">
       <div className="row">
         <div className="col">
           <div className="card">

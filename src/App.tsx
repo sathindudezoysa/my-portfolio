@@ -11,11 +11,15 @@ function App() {
 
   return (
     <div>
-      <Parallax pages={3}>
-        <ParallaxLayer offset={0}>
-          <Header />
+      <Parallax pages={3} className="annimation">
+        <ParallaxLayer offset={0} speed={1}>
+          <div className="animated-layer" id="foreground"></div>
         </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={0.5}>
+        <ParallaxLayer offset={0} speed={2}>
+          <div className="animated-layer" id="background"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.01}>
+          <Header />
           <FrontCover />
         </ParallaxLayer>
         <ParallaxLayer offset={1}>
