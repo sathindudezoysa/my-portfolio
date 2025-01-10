@@ -26,5 +26,15 @@ RUN npm run build
 
 RUN npm run preview
 
+################################
+#### PRODUCTION ENVIRONMENT ####
+################################
+
+# Install a lightweight HTTP server
+# RUN npm install -g serve
+
+Expose port 3000
+#EXPOSE 3000
+
 # Command to run the app
 CMD ["serve", "-s", "dist", "-l", "3000"]
