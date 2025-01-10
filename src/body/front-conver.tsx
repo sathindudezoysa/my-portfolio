@@ -4,7 +4,7 @@ function FrontCover() {
       <div className="text-center w-75">
         <h1 style={{ padding: "30px" }}> Hey, You Found Me 😊</h1>
         <p style={{ color: "#1083FF" }}>
-          Fellow Researcher (Developer/Creator/Writer)
+          | Full Stack Developer | Researcher | Creator | Writer |
         </p>
         <p>
           I am a student who has a strong passion for research new technologies.
@@ -12,6 +12,25 @@ function FrontCover() {
           my projects are bult from scratch, from having the idea and developing
           and all the way to solving the problem.
         </p>
+        <button
+          type="button"
+          className="btn btn-outline-dark mx-auto d-flex align-items-center justify-content-center"
+          style={{
+            padding: "10px",
+            display: "flex",
+            alignItems: "center",
+            gap: "5px",
+          }}
+          onClick={() => window.open("https://gpt.manaskara.org")}
+        >
+          Check My Latest Project Manaskara
+          <span
+            className="material-icons text-justify"
+            style={{ fontSize: "20px" }}
+          >
+            arrow_forward
+          </span>
+        </button>
       </div>
     </div>
   );

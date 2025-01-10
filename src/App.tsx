@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <Parallax pages={3} className="annimation">
+      <Parallax pages={2} className="annimation">
         <ParallaxLayer offset={0} speed={1}>
           <div className="animated-layer" id="foreground"></div>
         </ParallaxLayer>

@@ -2,12 +2,13 @@ function Footer() {
   return (
     <div className="container">
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div className="col-md-4 d-flex align-items-center">
+        <div className="col-md-4 d-flex align-items-center mb-3">
           <h3>Sathindu Dhanushka</h3>
         </div>
         <div className="col-md-4">
-          <p>Email me: sathindu.d.zoysa@gmail.com</p>
-          <p>Follow me on:</p>
+          <p>
+            Email me: sathindu.d.zoysa@gmail.com <br></br> Follow me on:
+          </p>
           <ul className="nav list-unstyled d-flex">
             <li className="ms-3">
               <a

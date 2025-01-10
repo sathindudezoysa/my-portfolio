@@ -1,13 +1,5 @@
 html { scroll-behavior: smooth; }
 
-
-.project-cards{
-    margin: 10px;
-    padding: 15px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
 .annimation, .animated-layer{
     height: 100%;
 } 
@@ -26,7 +18,10 @@ html { scroll-behavior: smooth; }
 #background{
     background-image: url(./assets/background.png);
 }
-
+.card:hover {
+  transform: scale(1.01); /* Slightly enlarges the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+}
 /* //Project car css */
 /* .card-wrapper {
     margin-bottom: 30px;
