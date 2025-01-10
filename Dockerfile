@@ -34,5 +34,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Command to run the app
-# CMD ["serve", "-s", "dist", "-l", "3000"]
-CMD ["sh", "-c", "npm run preview &"]
+CMD [ "npm", "run", "preview" ]
