@@ -22,17 +22,9 @@ RUN npm ci
 COPY ./ ./
 
 # Build the React app for production
-RUN npm run dev
+RUN npm run build
 
-################################
-#### PRODUCTION ENVIRONMENT ####
-################################
-
-# Install a lightweight HTTP server
-RUN npm install -g serve
-
-# Expose port 3000
-EXPOSE 3000
+RUN npm run preview
 
 # Command to run the app
 CMD ["serve", "-s", "dist", "-l", "3000"]
