@@ -22,7 +22,7 @@ RUN npm ci
 COPY ./ ./
 
 # Build the React app for production
-RUN npm run build
+RUN npm run dev
 
 ################################
 #### PRODUCTION ENVIRONMENT ####
