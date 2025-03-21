@@ -4,7 +4,7 @@ function FrontCover() {
       <div className="text-center w-75">
         <h1 style={{ padding: "30px" }}> Hey, You Found Me 😊</h1>
         <p style={{ color: "#1083FF" }}>
-          | Full Stack Developer | Researcher | Creator | Writer |
+          | Full Stack Developer | Researcher | Writer | Creator |
         </p>
         <p>
           I am a student who has a strong passion for research new technologies.
@@ -23,7 +23,7 @@ function FrontCover() {
           }}
           onClick={() => window.open("https://gpt.manaskara.org")}
         >
-          Check My Latest Project Manaskara
+          Check My Latest Project Manaskara GPT
           <span
             className="material-icons text-justify"
             style={{ fontSize: "20px" }}
